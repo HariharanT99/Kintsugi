@@ -1,11 +1,12 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { ParentComponent } from './parent/parent.component';
-import { BunnyComponent } from './parent/bunny/bunny.component';
+import { CarComponent } from './car/car.component';
 
 @NgModule({
-  declarations: [ParentComponent, BunnyComponent],
+  declarations: [
+    CarComponent
+  ],
   imports: [CommonModule],
-  exports: [ParentComponent],
+  exports: [],
 })
 export class FeatureModule {}
