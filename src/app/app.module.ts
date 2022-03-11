@@ -3,6 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
 import { FeatureModule } from './feature/feature.module';
 import { HttpClientModule } from  '@angular/common/http';
+import { DummyModule } from './dummy/dummy.module';
 
 
 @NgModule({
@@ -12,6 +13,7 @@ import { HttpClientModule } from  '@angular/common/http';
   imports: [
     BrowserModule,
     HttpClientModule,
+    DummyModule,
     FeatureModule
   ],
   providers: [],
