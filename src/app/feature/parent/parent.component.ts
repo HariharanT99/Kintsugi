@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { FoodService } from 'src/app/Service/food.service';
 
 @Component({
   selector: 'app-parent',
@@ -7,7 +8,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ParentComponent implements OnInit {
 
-  constructor() { }
+  constructor(private foodService: FoodService) {
+    console.log(`parent service id = ${this.foodService.id}`);
+   }
 
   ngOnInit(): void {
   }

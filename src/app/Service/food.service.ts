@@ -3,9 +3,7 @@ import { Injectable } from '@angular/core';
 
 let counter = 0;
 
-@Injectable({
-  providedIn: 'root',
-})
+@Injectable()
 
 export class FoodService {
   id: number;

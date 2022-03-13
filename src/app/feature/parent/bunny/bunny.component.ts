@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Optional, Self, SkipSelf } from '@angular/core';
 import { FoodService } from 'src/app/Service/food.service';
 
 @Component({
