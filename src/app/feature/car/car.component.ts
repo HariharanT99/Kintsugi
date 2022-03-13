@@ -12,7 +12,7 @@ export class CarComponent {
   engineService: EngineService;
   tireService: TireService;
   constructor() { 
-    this.engineService = new EngineService(new FuleService);
+    this.engineService = new EngineService();
     this.tireService = new TireService();
   }
 
